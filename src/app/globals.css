@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+/* ---------- Dizayn sistemi ---------- */
+@theme {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+
+  /* Meşə yaşılı: əsas rəng */
+  --color-pine-50: #f1f6f2;
+  --color-pine-100: #dce9df;
+  --color-pine-200: #b9d3c0;
+  --color-pine-500: #3f6b4f;
+  --color-pine-700: #274636;
+  --color-pine-900: #16291f;
+
+  /* Ağac / şam: vurğu rəngi (düymələr, qiymət) */
+  --color-wood-100: #f6e7d6;
+  --color-wood-400: #d08a4c;
+  --color-wood-500: #b5733a;
+  --color-wood-600: #96592a;
+
+  /* Fon və mətn */
+  --color-cream: #f8f4ee;
+  --color-ink: #1d1f1c;
+  --color-muted: #5f645d;
+
+  --radius-card: 1.25rem;
+
+  /* Mobil menyu animasiyaları */
+  --animate-fade-in: fade-in 200ms ease-out;
+  --animate-slide-down: slide-down 250ms ease-out;
+
+  @keyframes fade-in {
+    from { opacity: 0; }
+  }
+  @keyframes slide-down {
+    from { opacity: 0; transform: translateY(-12px); }
+  }
+}
+
+/* Ev səhifəsində telefonda aşağıda rezerv paneli var: ayrıca WhatsApp düyməsi lazım deyil */
+@media (width < 64rem) {
+  body:has([data-book-bar]) [data-wa-float] {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-fade-in,
+  .animate-slide-down {
+    animation: none;
+  }
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-cream text-ink antialiased;
+  }
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-wood-500;
+  }
+}
+
+/* ---------- Təkrar istifadə olunan siniflər ---------- */
+@utility container-page {
+  @apply mx-auto w-full max-w-6xl px-5 sm:px-8;
+}
+@utility btn {
+  @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-sm font-semibold transition-colors;
+}
+@utility btn-primary {
+  @apply btn bg-wood-500 text-white hover:bg-wood-600;
+}
+@utility btn-light {
+  @apply btn bg-white/90 text-pine-900 hover:bg-white;
+}
+@utility btn-whatsapp {
+  @apply btn bg-[#25D366] text-white hover:bg-[#1ebe5a];
+}
+@utility section-title {
+  @apply text-3xl font-bold tracking-tight text-pine-900 sm:text-4xl;
+}

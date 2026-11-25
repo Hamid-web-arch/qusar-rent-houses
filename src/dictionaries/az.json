@@ -1,0 +1,261 @@
+{
+  "meta": {
+    "title": "Qusar kirayə ev | Günlük A-frame evlər, Şahdağa yaxın",
+    "titleTemplate": "%s | A-frame Qusar",
+    "description": "Qusarda günlük kirayə evlər və A-frame evlər. Şahdağa yaxın, kaminli, təbiət qoynunda rahat evlər. Qiymətlərə baxın və WhatsApp ilə tez rezerv edin."
+  },
+  "nav": {
+    "home": "Ana səhifə",
+    "houses": "Evlər",
+    "qusar": "Qusar haqqında",
+    "blog": "Bloq",
+    "contact": "Əlaqə",
+    "book": "Rezerv et",
+    "menu": "Menyunu aç",
+    "close": "Menyunu bağla",
+    "call": "Zəng et",
+    "language": "Dil"
+  },
+  "hero": {
+    "eyebrow": "Qusar · Şahdağ",
+    "title": "Qusarda günlük kirayə evlər və A-frame evlər",
+    "subtitle": "Dağların qoynunda, Şahdağa bir neçə dəqiqəlik məsafədə rahat və isti evlər. Ailə, dostlar və cütlüklər üçün.",
+    "ctaPrimary": "Evlərə baxın",
+    "ctaWhatsapp": "WhatsApp ilə yazın"
+  },
+  "search": {
+    "checkIn": "Giriş",
+    "checkOut": "Çıxış",
+    "guests": "Qonaq",
+    "button": "Boş evləri göstər",
+    "errorDates": "Çıxış tarixi girişdən sonra olmalıdır"
+  },
+  "featured": {
+    "title": "Evlərimiz",
+    "subtitle": "Hər biri fərqli, hamısı rahat. Sizə uyğun olanı seçin.",
+    "all": "Bütün evlər"
+  },
+  "housesPage": {
+    "title": "Qusarda kirayə evlər",
+    "metaTitle": "Qusarda günlük kirayə evlər və A-frame evlər, qiymətlər",
+    "metaDescription": "Qusarda günlük kirayə A-frame evlər və ailə evləri: qiymətlər, boş günlər, imkanlar. Kaminli, cakuzili, Şahdağa yaxın evlər.",
+    "subtitle": "Tarixləri seçin, boş evləri və qiyməti dərhal görün."
+  },
+  "filters": {
+    "type": "Növ",
+    "all": "Hamısı",
+    "aframe": "A-frame",
+    "house": "Ev",
+    "guests": "Qonaq sayı",
+    "any": "İstənilən",
+    "features": "İmkanlar",
+    "reset": "Filtrləri sıfırla",
+    "found": "{n} ev tapıldı",
+    "availableFor": "{in} – {out} tarixlərində boş evlər",
+    "empty": "Bu şərtlərə uyğun boş ev tapılmadı.",
+    "emptyHint": "Tarixləri və ya filtrləri dəyişin, ya da bizə yazın, kömək edək."
+  },
+  "house": {
+    "perNight": "gecəlik",
+    "from": "",
+    "guestsForms": [
+      "nəfər",
+      "nəfər",
+      "nəfər"
+    ],
+    "bedroomsForms": [
+      "yataq otağı",
+      "yataq otağı",
+      "yataq otağı"
+    ],
+    "bathroomsForms": [
+      "hamam otağı",
+      "hamam otağı",
+      "hamam otağı"
+    ],
+    "nightsForms": [
+      "gecə",
+      "gecə",
+      "gecə"
+    ],
+    "toShahdag": "km Şahdağa",
+    "details": "Ətraflı",
+    "totalFor": "{n} {nights}: {total} ₼",
+    "type": {
+      "aframe": "A-frame ev",
+      "house": "Ev"
+    }
+  },
+  "houseDetail": {
+    "back": "Bütün evlər",
+    "about": "Ev haqqında",
+    "amenities": "İmkanlar",
+    "location": "Yerləşmə",
+    "directions": "Google Maps-də yol tarifi",
+    "prices": "Qiymətlər",
+    "weekday": "Bazar ertəsi – Cümə axşamı gecəsi",
+    "weekend": "Cümə və Şənbə gecəsi",
+    "photos": "{n} şəkil",
+    "noPhotos": "Şəkillər tezliklə əlavə olunacaq"
+  },
+  "booking": {
+    "title": "Tarixləri seçin",
+    "pickCheckIn": "Giriş gününü seçin",
+    "pickCheckOut": "İndi çıxış gününü seçin",
+    "guests": "Qonaq sayı",
+    "weekday": "Həftəiçi",
+    "weekend": "Həftəsonu",
+    "season": "Mövsüm",
+    "total": "Cəmi",
+    "clear": "Təmizlə",
+    "booked": "Dolu",
+    "selected": "Seçilmiş",
+    "unavailable": "Seçdiyiniz tarixlərdə bəzi günlər doludur.",
+    "tooManyGuests": "Bu ev ən çox {n} nəfər üçündür.",
+    "book": "WhatsApp ilə rezerv et",
+    "bookShort": "Rezerv et",
+    "ask": "WhatsApp ilə soruşun",
+    "call": "Zəng et",
+    "note": "Rezervasiya WhatsApp və ya telefonla təsdiqlənir.",
+    "prev": "Əvvəlki ay",
+    "next": "Növbəti ay",
+    "selectDates": "Tarix seç",
+    "waWithDates": "Salam! \"{house}\" evini {in} – {out} ({n} gecə), {guests} nəfər üçün rezerv etmək istəyirəm. Saytdakı qiymət: {total} ₼. Boşdurmu?",
+    "waNoDates": "Salam! \"{house}\" evi haqqında məlumat almaq istəyirəm.",
+    "request": {
+      "open": "Onlayn sorğu göndər",
+      "title": "Rezervasiya sorğusu",
+      "name": "Adınız",
+      "phone": "Telefon (WhatsApp)",
+      "message": "Qeyd (istəyə bağlı)",
+      "messagePlaceholder": "Məs.: təxminən saat 15:00-da gələcəyik",
+      "submit": "Sorğunu göndər",
+      "sending": "Göndərilir…",
+      "needDates": "Əvvəlcə təqvimdən tarixləri seçin.",
+      "success": "Sorğunuz göndərildi! Tezliklə zəng edib və ya WhatsApp-a yazıb təsdiqləyəcəyik.",
+      "errors": {
+        "name": "Adınızı yazın.",
+        "phone": "Telefon nömrəsini düzgün yazın.",
+        "dates": "Tarixləri yenidən seçin.",
+        "guests": "Qonaq sayı bu ev üçün uyğun deyil.",
+        "taken": "Təəssüf ki, bu tarixlər artıq doludur. Başqa tarix seçin.",
+        "unavailable": "Göndərmək alınmadı. Zəhmət olmasa WhatsApp ilə yazın."
+      }
+    }
+  },
+  "calendar": {
+    "months": [
+      "Yanvar",
+      "Fevral",
+      "Mart",
+      "Aprel",
+      "May",
+      "İyun",
+      "İyul",
+      "Avqust",
+      "Sentyabr",
+      "Oktyabr",
+      "Noyabr",
+      "Dekabr"
+    ],
+    "monthsShort": [
+      "yan",
+      "fev",
+      "mar",
+      "apr",
+      "may",
+      "iyn",
+      "iyl",
+      "avq",
+      "sen",
+      "okt",
+      "noy",
+      "dek"
+    ],
+    "weekdays": [
+      "B.e",
+      "Ç.a",
+      "Ç",
+      "C.a",
+      "C",
+      "Ş",
+      "B"
+    ]
+  },
+  "amenities": {
+    "fireplace": "Kamin",
+    "jacuzzi": "Cakuzi",
+    "bbq": "Manqal",
+    "wifi": "Wi-Fi",
+    "parking": "Parkinq",
+    "kitchen": "Mətbəx",
+    "terrace": "Terras",
+    "heating": "İstilik sistemi",
+    "tv": "Televizor",
+    "mountainView": "Dağ mənzərəsi"
+  },
+  "why": {
+    "title": "Niyə biz?",
+    "items": [
+      {
+        "title": "Şahdağa yaxın",
+        "text": "Xizək kurortuna və Qusarın görməli yerlərinə qısa məsafə."
+      },
+      {
+        "title": "Təmiz və rahat",
+        "text": "Hər qonaqdan sonra tam təmizlik, təzə yataq dəstləri."
+      },
+      {
+        "title": "Birbaşa sahibindən",
+        "text": "Vasitəçi yoxdur. Ən sərfəli qiymət birbaşa bizdədir."
+      },
+      {
+        "title": "Tez cavab",
+        "text": "WhatsApp-a yazın, bir neçə dəqiqəyə cavab verək."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Tarixlərinizi bizə yazın",
+    "text": "Boş günləri və qiyməti dərhal deyək.",
+    "button": "WhatsApp ilə yazın"
+  },
+  "contact": {
+    "title": "Əlaqə",
+    "metaDescription": "A-frame Qusar ilə əlaqə: telefon, WhatsApp, Instagram və ünvan. Qusarda günlük kirayə ev üçün bizə yazın.",
+    "subtitle": "Sualınız var? Ən tez cavabı WhatsApp-da veririk.",
+    "phone": "Telefon",
+    "whatsapp": "WhatsApp",
+    "instagram": "Instagram",
+    "address": "Ünvan",
+    "write": "Yazın",
+    "callNow": "Zəng edin",
+    "follow": "İzləyin",
+    "map": "Xəritədə",
+    "howToGet": "Necə gəlmək olar?",
+    "howToGetText": "Bakıdan Qusara avtomobillə təxminən 2,5–3 saatlıq yoldur. Dəqiq ünvanı və yol tarifini rezervasiyadan sonra göndəririk."
+  },
+  "footer": {
+    "about": "Qusarda günlük kirayə evlər və A-frame evlər. Şahdağa yaxın, təbiət qoynunda istirahət.",
+    "contact": "Əlaqə",
+    "rights": "Bütün hüquqlar qorunur."
+  },
+  "notFound": {
+    "title": "Səhifə tapılmadı",
+    "text": "Axtardığınız səhifə yoxdur və ya köçürülüb.",
+    "back": "Ana səhifəyə qayıt"
+  },
+  "whatsappMessage": "Salam! Saytınızdan yazıram, ev haqqında məlumat almaq istəyirəm.",
+  "tour": {
+    "title": "360° virtual tur",
+    "subtitle": "Evin içində gəzin: barmağınızla və ya siçanla sürüşdürərək otağa hər tərəfdən baxın.",
+    "badge": "360° tur",
+    "open": "360° tura bax",
+    "start": "Turu başlat",
+    "loading": "Yüklənir…",
+    "rooms": "Otaqlar",
+    "error": "Panoramanı açmaq alınmadı.",
+    "video": "Video tur",
+    "playVideo": "Videonu oynat"
+  }
+}
